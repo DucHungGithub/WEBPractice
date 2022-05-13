@@ -30,7 +30,7 @@ section .container .circle {
     position: relative;
     width: 150px;
     height: 150px;
-    margin: 0 20px;
+    margin: 0 21px;
 }
 
 section .container .circle span {
@@ -68,7 +68,11 @@ section .container .circle span::before {
 }
 
 section .container .circle:nth-child(2) {
-    transform: rotate(-180deg);
+    transform: rotate(-135deg);
+}
+
+section .container .circle:nth-child(1) {
+    transform: rotate(45deg);
 }
 
 section .container .circle:nth-child(2) span::before {
